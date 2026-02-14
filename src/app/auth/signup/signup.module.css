@@ -1,0 +1,72 @@
+.box {
+  color: darkblue;
+  font-size: 25px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.heading {
+  text-align: center;
+}
+
+.labelEmail {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.Each {
+  display: flex;
+  margin: 0px;
+  justify-content: space-between;
+}
+
+.button {
+  width: 100%;
+  font-size: 15px;
+  color: white;
+  justify-content: center;
+  background-color: darkblue;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input,
+.inputError {
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.inputError {
+  border-color: red;
+}
+
+.input:focus-visible {
+  outline: none;
+  border-color: blue; /* or your primary color */
+}
+.inputError:focus-visible {
+  outline: none;
+  border-color: red; /* or your error color */
+}
+
+.error{
+  margin: 0px;
+  color: red;
+  font-size: small;
+  display: flex;
+}
